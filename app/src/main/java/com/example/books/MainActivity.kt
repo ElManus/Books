@@ -19,8 +19,8 @@ class MainActivity : AppCompatActivity() {
         viewModel = ViewModelProviders.of(this).get(BooksViewModel::class.java)
 
         //test object
-        val obj = Books(11, "Stern", "King", 2019, "Horror")
-        viewModel.insert(obj)
+        //val obj = Books(11, "Stern", "King", 2019, "Horror")
+        //viewModel.insert(obj)
 
         /*
         подписка на данные
